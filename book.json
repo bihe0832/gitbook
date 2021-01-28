@@ -14,9 +14,14 @@
   "plugins": [
     "favicon",
     "insert-logo",
+    "theme-comscore",
+    "sitemap-general",
+    "rss",
+    "copyright",
     "-lunr",
     "-search",
     "search-pro",
+    "edit-link-plus",
     "expandable-chapters",
     "chapter-fold",
     "splitter",
@@ -33,7 +38,8 @@
     "-highlight",
     "flexible-alerts",
     "tbfed-pagefooter",
-    "donate"
+    "donate",
+    "simple-mind-map"
   ],
   "pluginsConfig": {
     "favicon": {
@@ -60,7 +66,7 @@
     "github-buttons": {
       "repo": "bihe0832/bihe0832.github.io",
       "types": [
-        "star"
+        "star","watch"
       ],
       "size": "small"
     },
@@ -93,8 +99,11 @@
     },
     "prism": {
       "css": [
-        "prismjs/themes/prism-okaidia.css"
-      ]
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "flow": "java,kotlin"
+      }
     },
     "tbfed-pagefooter": {
       "copyright": "Copyright &copy <a href='https://blog.bihe0832.com'>zixie</a>",
@@ -103,11 +112,36 @@
     },
     "donate": {
       "wechat": "https://blog.bihe0832.com/public/img/wechat.jpeg",
-      "alipay": "https://blog.bihe0832.com/public/img/wechat.jpeg",
-      "title": "",
-      "button": "赞赏",
-      "wechatText": "潜心做精品",
-      "alipayText": "努力学技术"
-    }
+      "alipay": "http://cdn.bihe0832.com/images/head.jpg",
+      "title": "点击「鼓励」关注开发者微信公众号或者赞赏鼓励开发者",
+      "button": "鼓励",
+      "wechatText": "努力学技术",
+      "alipayText": "潜心做精品"
+    },
+    "simple-mind-map":{
+        "preset": "colorful"
+    },
+    "rss": {
+        "title": "AndroidAppFactory",
+        "description": "AndroidAppFactory Doc",
+        "author": "zixie",
+        "site_url": "https://blog.bihe0832.com/",
+        "feed_url": "https://blog.bihe0832.com/pages/atom.xml"
+    },
+    "sitemap-general": {
+        "prefix": "https://blog.bihe0832.com/"
+    },
+    "copyright": {
+      "site": "https://blog.bihe0832.com/",
+      "author": "子勰",
+      "website": "子勰的博客"
+      },
+      "edit-link-plus": {
+          "base": {
+            "子勰的博客":"https://github.com/bihe0832/gitbook/edit/master"
+          },
+          "defaultBase": "https://github.com/bihe0832/gitbook/edit/master",
+          "label": "编辑本页"
+      }
   }
 }
