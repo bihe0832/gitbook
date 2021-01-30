@@ -15,7 +15,7 @@
     
         Unpacking objects: 100% (9/9), done.
     
-## 安装依赖，推荐使用npm
+## 安装依赖，推荐使用npm，gitbook 安装会非常缓慢
 
 - 命令
 
@@ -86,26 +86,3 @@
         info: >> generation finished with success in 0.8s !
 
 
-## 使用事例
-
-#### TODO 
-
-- [ ] sfsdfds 
-
-- [x] sfsdfds 
-
-#### 代码
-
-```java
-public static void showShort(final Context ctx, final String toastInfo) {
-    show(ctx, toastInfo, Toast.LENGTH_SHORT);
-}
-```
-
-#### CSV
-
-{% includeCsv useHeader="true" %}
-c1,c2,c3
-1,1,1
-2,2,2
-{% endincludeCsv %}
