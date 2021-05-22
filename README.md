@@ -15,7 +15,7 @@
     
         Unpacking objects: 100% (9/9), done.
     
-## 安装依赖，推荐使用npm，gitbook 安装会非常缓慢
+## 安装依赖，推荐使用npm，gitbook 安装会非常缓慢，npm建议使用 v10.23.0
 
 - 命令
 
